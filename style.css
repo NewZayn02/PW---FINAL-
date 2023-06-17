@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#searchInput {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#resultsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#resultsList li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+#resultsList li:hover {
+  font-weight: bold;
+}
+
+#hobbyInfo {
+  margin-top: 20px;
+}
