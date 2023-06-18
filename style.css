@@ -27,7 +27,16 @@ th:last-child { border-radius: 0 10px 0 0; }
 
 #resultsTable { width: 100%; border: 1px solid royalblue;border-radius: 25px;}
 
-.info-container { margin-top: 20px; }
+#infoContainer {margin-top: 20px;border: 1px solid royalblue;padding: 20px;
+border-radius: 25px;}
+
+#infoContainer h2 {margin-top: 0;border-radius: 25px;}
+
+#infoContainer p {margin-bottom: 10px;}
+
+#infoContainer img {
+  max-width: 100%;
+}
 
 .button { padding: 10px; background-color: cornflowerblue; color: white; }
 
