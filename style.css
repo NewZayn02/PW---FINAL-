@@ -1,50 +1,39 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
+body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,'Helvetica Neue', Arial, 'Noto Sans', sans-serif; margin: 0; padding: 20px;}
+
+h1{text-align: center;}
+
+.container { max-width: 800px; margin: 0 auto; }
+
+.title { font-size: 36px; text-align: center; margin-bottom: 20px; }
+
+.search-container { display: flex; align-items: center; justify-content: center; }
+
+.search { padding: 10px; font-size: 16px; }
+
+#searchInput { width: 500px; height: 30px;text-align: center; }
+
+#searchButton { width: 100px; height: 30px; background-color: cornflowerblue; color: white;text-align: center;}
+
+#searchButton:hover { background-color: royalblue; }
+table { border-collapse: separate; }
+
+th { background-color: cornflowerblue; color: white; border: 1px solid black; }
+
+th:first-child { border-radius: 10px 0 0 0; }
+
+th:last-child { border-radius: 0 10px 0 0; } 
+
+.table-container { border: 1px solid black; padding: 10px; }
+
+#resultsTable { width: 100%; border: 1px solid royalblue;border-radius: 25px;}
+
+.info-container { margin-top: 20px; }
+
+.button { padding: 10px; background-color: cornflowerblue; color: white; }
+
+.button:hover { background-color: royalblue; }
+
+footer { background-color: #333; color: #fff; padding: 20px 0; text-align: center;margin-top: 500px;
 }
 
-h1 {
-  text-align: center;
-}
-
-#searchInput {
-  padding: 10px;
-  font-size: 16px;
-  width: 300px;
-}
-
-#searchButton {
-  padding: 10px 20px;
-  font-size: 16px;
-}
-
-#resultsList {
-  list-style-type: none;
-  padding: 0;
-}
-
-#resultsList li {
-  margin-bottom: 10px;
-  cursor: pointer;
-  color: blue;
-  text-decoration: underline;
-}
-
-#resultsList li:hover {
-  font-weight: bold;
-}
-
-#hobbyInfo {
-  margin-top: 20px;
-}
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-footer p {
-  margin: 0;
-}
+footer p { margin: 0; }
