@@ -1,6 +1,21 @@
 body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,'Helvetica Neue', Arial, 'Noto Sans', sans-serif; margin: 0; padding: 20px;}
 
-h1{text-align: center;}
+#n {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  
+}
+
+#n h1 {
+  background-color: cornflowerblue;
+  border-radius: 25px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}
 
 .container { max-width: 800px; margin: 0 auto; }
 
@@ -14,7 +29,7 @@ h1{text-align: center;}
 
 #searchButton { width: 100px; height: 30px; background-color: cornflowerblue; color: white;text-align: center;}
 
-#searchButton:hover { background-color: royalblue; }
+#searchButton:hover { background-color: cornflowerblue; }
 table { border-collapse: separate; }
 
 th { background-color: cornflowerblue; color: white; border: 1px solid black; }
@@ -40,7 +55,7 @@ border-radius: 25px;}
 
 .button { padding: 10px; background-color: cornflowerblue; color: white; }
 
-.button:hover { background-color: royalblue; }
+.button:hover { background-color: cornflowerblue; }
 
 footer { background-color: #333; color: #fff; padding: 20px 0; text-align: center;margin-top: 500px;
 }
